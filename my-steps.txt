@@ -88,16 +88,24 @@ cd proteins/
 mv crab.txt meats
 
 ### Step 3L
-
+cd ..
+rm thing.txt
 
 ### Step 3M
-
+cp -r veggies plants
 
 ### Step 3N
-
-
+mkdir drinks
+rm -r drinks
 
 ### Step 4
+git init
+git add .
+git commit -m 'first commit'
+
+git remote add origin https://github.com/Ilackkeya/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 
 ### Step 5

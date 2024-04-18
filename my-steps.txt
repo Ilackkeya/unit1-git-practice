@@ -103,16 +103,20 @@ git init
 git add .
 git commit -m 'first commit'
 
+
+
+### Step 5
 git remote add origin https://github.com/Ilackkeya/unit1-git-practice.git
 git branch -M main
 git push -u origin main
 
-
-### Step 5
-
-
 ### Step 6
-
+touch menu.txt
+ls
+git status
+git add .
+git commit -m 'starting a menu'
+git push
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
